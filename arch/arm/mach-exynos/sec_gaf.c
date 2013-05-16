@@ -139,8 +139,6 @@ static struct GAForensicINFO {
 	.task_struct_struct_normal_prio = offsetof(struct task_struct, normal_prio),
 	.task_struct_struct_rt_priority = offsetof(struct task_struct, rt_priority),
 
-	.task_struct_struct_se = offsetof(struct task_struct, se),
-
 	.sched_entity_struct_exec_start = offsetof(struct sched_entity, exec_start),
 	.sched_entity_struct_sum_exec_runtime = offsetof(struct sched_entity, sum_exec_runtime),
 	.sched_entity_struct_prev_sum_exec_runtime = offsetof(struct sched_entity, prev_sum_exec_runtime),
